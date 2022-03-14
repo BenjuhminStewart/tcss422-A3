@@ -1,0 +1,1 @@
+cmd_/home/steven/Documents/Repositories/tcss422-assignment2/tcss422-A3/procReport/Module.symvers := sed 's/\.ko$$/\.o/' /home/steven/Documents/Repositories/tcss422-assignment2/tcss422-A3/procReport/modules.order | scripts/mod/modpost -m -a  -o /home/steven/Documents/Repositories/tcss422-assignment2/tcss422-A3/procReport/Module.symvers -e -i Module.symvers   -T -
